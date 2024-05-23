@@ -871,3 +871,11 @@ end)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/NOMADRGF/tuthub/main/adad"))();
    end,
 })
+
+
+local Button = Tab:CreateButton({
+   Name = "FE troll/script hub",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/AHMEDPLPL/System-hub/main/System%20hub%20V2', true))();
+   end,
+})
