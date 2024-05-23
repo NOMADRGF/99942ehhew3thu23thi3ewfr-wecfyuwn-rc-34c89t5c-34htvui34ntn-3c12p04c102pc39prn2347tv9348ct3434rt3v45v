@@ -864,3 +864,10 @@ end)
     end,
  })
 
+
+ local Button = Tab:CreateButton({
+   Name = "OLD ADMIN HUB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NOMADRGF/tuthub/main/adad"))();
+   end,
+})
