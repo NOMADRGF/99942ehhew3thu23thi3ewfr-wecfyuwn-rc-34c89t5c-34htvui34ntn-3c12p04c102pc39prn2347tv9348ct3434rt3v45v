@@ -1,0 +1,231 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "RGF-Public V3", HidePremium = false, SaveConfig = true, ConfigFolder = "RGF"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local InfoTab = Window:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+local Admin ScriptsTab = Window:MakeTab({
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local BloxFruitsTab = Window:MakeTab({
+	Name = " BloxFruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Blade BallTab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local ArsenalTab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local MM2Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local PetSim99Tab = Window:MakeTab({
+	Name = "PetSim99",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local DoorsTab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local BrookhavenTab = Window:MakeTab({
+	Name = " Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Slap battlesTab = Window:MakeTab({
+	Name = "Slap battles",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Da hoodTab = Window:MakeTab({
+	Name = "Da hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Strongest battlegroundsTab = Window:MakeTab({
+	Name = "Strongest battlegrounds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Counter bloxTab = Window:MakeTab({
+	Name = "Counter blox",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Fruit battlegroundTab = Window:MakeTab({
+	Name = "Fruit battleground",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local muscle legendsTab = Window:MakeTab({
+	Name = "muscle legends",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local custom duelsTab = Window:MakeTab({
+	Name = "custom duels",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+local driving empireTab = Window:MakeTab({
+	Name = "driving empire",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local jailbreakTab = Window:MakeTab({
+	Name = "jailbreak",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local DUSTY TRIPTab = Window:MakeTab({
+	Name = "dusty trip",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local COMBAT WARRIORSTab = Window:MakeTab({
+	Name = "COMBAT WARRIORS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local TPS STREETSOCCERTab = Window:MakeTab({
+	Name = "TPS STREETSOCCER",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local VIKING SIMTab = Window:MakeTab({
+	Name = "VIKING SIM",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local BUILD BoatTab = Window:MakeTab({
+	Name = "BUILD BOAT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local DoorsTab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local destruct simTab = Window:MakeTab({
+	Name = "destruct sim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local bee swampsimTab = Window:MakeTab({
+	Name = "bee swamp sim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local mad cityTab = Window:MakeTab({
+	Name = "mad city",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local after mathTab = Window:MakeTab({
+	Name = "after math",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+local Gamestab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
